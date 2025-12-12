@@ -1,0 +1,6 @@
+.next
+public
+next.config.ts
+package-lock.json
+package.json
+.prettierrc
