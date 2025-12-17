@@ -9,7 +9,7 @@ function Welcome() {
     <div className="flex flex-col justify-center items-center mt-6">
       <span>welcome to</span>
       <div className="flex items-center gap-3">
-        <MonitorSmartphone color={"blue"} />
+        <MonitorSmartphone />
         <h1>Digital Shop</h1>
       </div>
       <Button asChild className="mt-6">
