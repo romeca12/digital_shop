@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from "react";
 
 import {
   Carousel,
@@ -6,13 +6,13 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  Card, CardContent
-} from "@/components/ui"
-import Image from "next/image"
-import Img1 from "./image/cloud-server.png"
+  Card,
+  CardContent,
+} from "@/components/ui";
+import Image from "next/image";
+import Img1 from "./image/cloud-server.png";
 
 function Banner() {
-
   return (
     <Carousel className="w-full">
       <CarouselContent>
@@ -31,7 +31,7 @@ function Banner() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-  )
+  );
 }
 
-export default Banner
+export default Banner;
