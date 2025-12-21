@@ -11,7 +11,7 @@ const eslintConfig = defineConfig([
     rules: {
       "no-console": "warn",
       "@next/next/no-img-element": "off",
-      // "@typescript-eslint/no-explicit-any" : "off",
+      "@typescript-eslint/no-explicit-any": "warn",
     },
   },
 
